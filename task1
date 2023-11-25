@@ -1,0 +1,5 @@
+# Create 20 text files with .txt extension
+touch file{1..20}.txt
+
+# Rename the first 5 files to have .yml extension This loop iterates over the numbers 1 to 5 and renames each corresponding file from .txt to .yml.
+for i in {1..5}; do mv file${i}.txt file${i}.yml; done
