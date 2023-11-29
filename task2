@@ -1,6 +1,6 @@
 # Create a file with .txt extension
 touch /home/demo.txt
 
-# Change the permissions. in chmod 754 the owner has read (4) + write (2) + execute (1), the group has read (4) + write (1), and others have read (4).
-chmod 754 /home/demo.txt
+# Change the permissions. in chmod 764 the owner has read (4) + write (2) + execute (1), the group has read (4) + write (2), and others have read (4).
+chmod 764 /home/demo.txt
 
